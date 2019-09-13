@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 FROM jenkins/jenkins:2.176.2
+=======
+FROM jenkins/jenkins:2.184
+>>>>>>> fix security config
 
 LABEL maintainer="ewe@praqma.net"
 COPY plugins_extra.txt /usr/share/jenkins/ref/plugins_extra.txt
