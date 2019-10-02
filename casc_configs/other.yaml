@@ -2,6 +2,10 @@ unclassified:
   location:
     url: http://localhost
     adminAddress: support@praqma.net
+  gitSCM:
+    createAccountBasedOnEmail: false
+    globalConfigEmail: "jenkins@jenkins.com"
+    globalConfigName: "Jenkins"
   
   globalLibraries:
     libraries:
