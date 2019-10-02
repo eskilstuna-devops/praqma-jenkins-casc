@@ -1,3 +1,2 @@
 jobs:
-  - url: https://raw.githubusercontent.com/tpeltone/praqma-jenkins-casc/demomeetup/jobs_collection/freestyle_job_one.dsl
-  - url: https://raw.githubusercontent.com/tpeltone/praqma-jenkins-casc/demomeetup/jobs_collection/freestyle_job_two.dsl
+  - url: https://raw.githubusercontent.com/eskilstuna-devops/praqma-jenkins-casc/demomeetup/jobs_collection/freestyle_meetup.dsl
