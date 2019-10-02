@@ -8,7 +8,7 @@ services:
       - 80:8080
       - 50000:50000
     volumes:
-      - jenkins_home_summit:/var/jenkins_home
+      - /Users/alexandrasedova/jenkins_home_meetup:/var/jenkins_home
       - ./casc_configs:/var/jenkins_conf
     # secrets:
     #   - github  #Github username with password as an example. Purpose here is to have a user with write-access for special cases. Like the git-publisher.
@@ -23,5 +23,5 @@ services:
 #     file: /var/praqma-jenkins-casc/secrets/adminpw
 #   agent_private_key: #This should point to the private key you want your jenkins master to use when connecting to slaves. So in AWS for example this would be your .pem file
 #     file: ~/.ssh/id_rsa
-volumes:
-  jenkins_home_summit:
+#volumes:
+#  jenkins_home_summit:
